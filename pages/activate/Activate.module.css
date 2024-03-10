@@ -1,0 +1,43 @@
+.login select {
+  border: none;
+  outline: none;
+  color: #CD5C5C;
+}
+
+.sign_up {
+  color: #CD5C5C !important;
+}
+
+.btn-login,
+.login .btn:hover {
+
+  background-color: #CD5C5C;
+  color: #ffffff !important;
+}
+
+.login .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(181 91 82 / 25%);
+  background-color: #CD5C5C;
+  ;
+  color: #ffffff !important;
+}
+
+.btn_login,
+.btn_login:hover {
+
+  background-color: #CD5C5C !important;
+  color: #ffffff !important;
+}
+
+.registerImg {
+  background-color: rgba(181, 91, 82, 0.05);
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.sign_up {
+  color: black !important;
+}

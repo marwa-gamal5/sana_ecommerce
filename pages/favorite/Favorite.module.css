@@ -1,0 +1,93 @@
+
+.allProduct h4{
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #0D2F04;
+  }
+  
+  .allProduct h5{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0D2F04;
+  
+  }
+  
+  .fav{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  
+
+  
+.about {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+  }
+  
+  .about .underLay {
+    width: 200px;
+    height: 30px;
+    background: #D8EDD1;
+  }
+
+  body[dir='rtl']  .about .underLay {
+    width: 85px;
+  }
+
+  .about .underLay h2 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #0D2F04;
+    z-index: 222;
+    top: -23px;
+    left: -13px;
+  }
+
+  body[dir='rtl'] .about .underLay h2 {
+    right: -13px;
+    left: unset;
+  }
+
+  body[dir='rtl'] .goOne {
+    transform: rotate(180deg);
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .about {
+      padding-top: 117px;
+      padding-bottom: 22px;
+    }
+  
+    .about .underLay {
+      width: 145px;
+      height: 23px;
+    }
+    
+    .about .underLay h2 {
+      font-size: 30px;
+      top: -17px;
+      left: -7px;
+    }
+
+    body[dir='rtl'] .about .underLay h2 {
+      right: -7px;
+      left: unset;
+    }
+
+    .allProduct h4{
+      font-size: 24px;
+    }
+    
+    .allProduct h5{
+      font-size: 18px !important;
+    }
+  
+  }
+

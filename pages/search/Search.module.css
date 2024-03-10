@@ -1,0 +1,54 @@
+
+.allProduct h4{
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #0D2F04;
+  }
+  
+  .allProduct h5{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0D2F04;
+  
+  }
+  
+  .fav{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  
+.about {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+  }
+  
+  .about .underLay {
+    width: 150px;
+    height: 30px;
+    background: #D8EDD1;
+  }
+
+  body[dir='rtl']    .about .underLay {
+    width: 80px;
+  }
+
+  .about .underLay h2 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #0D2F04;
+    z-index: 222;
+    top: -23px;
+    left: -13px;
+  }
+
+  body[dir='rtl'] .about .underLay h2 {
+    right: -5px;
+    left:unset;
+  }

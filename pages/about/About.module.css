@@ -1,0 +1,335 @@
+
+.videoContainer {
+  /* position: relative;  */
+  background-color: #FFFFFF;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.caption p {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+.caption h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+
+
+.about,
+.aboutThree,
+.aboutFive{
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #FFFFFF;
+}
+
+
+
+.aboutTwo,
+.aboutFour {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #BAD6B2;
+}
+
+
+.about .underLay {
+  width: 280px;
+  height: 30px;
+  background: #D8EDD1;
+}
+
+body[dir='rtl'] .about .underLay {
+  width: 100px;
+}
+
+
+.aboutTwo .underLay {
+  width: 608px;
+  height: 40px;
+  background: #FFFFFF;
+}
+
+body[dir='rtl'] .aboutTwo .underLay {
+  width: 270px;
+}
+
+.aboutThree .underLay {
+  width: 175px;
+  height: 30px;
+  background: #D8EDD1;
+}
+
+body[dir='rtl'] .aboutThree .underLay {
+  width: 145px;
+}
+
+.aboutFour .underLay {
+  width: 270px;
+  height: 30px;
+  background: #FFFFFF;
+}
+
+
+body[dir='rtl'] .aboutFour .underLay {
+  width: 95px;
+}
+
+.aboutFive .underLay {
+  width: 312px;
+  height: 30px;
+  background: #D8EDD1;
+}
+
+
+
+body[dir='rtl'] .aboutFive .underLay {
+  width: 275px;
+}
+.about .underLay h2,
+.aboutTwo .underLay h2,
+.aboutThree .underLay h2,
+.aboutFour .underLay h2,
+.aboutFive .underLay h2 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #0D2F04;
+  z-index: 222;
+  top: -23px;
+  left: -13px;
+}
+
+body[dir='rtl'] .about .underLay h2,
+body[dir='rtl'] .aboutTwo .underLay h2,
+body[dir='rtl'] .aboutThree .underLay h2,
+body[dir='rtl'] .aboutFour .underLay h2,
+body[dir='rtl'] .aboutFive .underLay h2 {
+  left: unset;
+  right: -13px;
+}
+
+.sliderHead {
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+
+.layImage {
+  height: 600px;
+  background-image: url('../../public/assets/image/layout.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.aboutTwo h5 {
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+.aboutTwo p {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+.aboutThree .item {
+  width: 90% !important;
+  padding: 68px 68px 88px;
+  background: rgba(239, 249, 236, 0.3);
+  box-shadow: 0px 4px 4px rgba(13, 47, 4, 0.2);
+  border-radius: 8px;
+}
+
+.aboutThree .item ul li {
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+.aboutFive .item {
+  background: rgba(234, 242, 231, 0.1);
+  box-shadow: 0px 4px 4px rgba(13, 47, 4, 0.2);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.aboutFive p {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+.aboutFive input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #5C8252;
+  padding: 10px 0px;
+  margin-top: 15px;
+  text-transform: capitalize;
+  color: #6E8867;
+}
+
+.aboutFive input::placeholder {
+  color: #6E8867 !important;
+}
+
+.aboutFive button {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  background: #D8EDD1;
+  border: 1px solid #D8EDD1;
+  border-radius: 8px;
+  color: #0D2F04;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.staticImage{
+  width: 210px;
+  height: 210px;
+}
+
+.iconImage{
+  width: 70px !important;
+  height: 70px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .caption p {
+    font-size: 16px;
+  }
+  
+  .caption h2 {
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .about {
+    padding-top: 0px;
+    padding-bottom: 80px;
+  }
+  
+  .aboutTwo ,
+  .aboutThree ,
+  .aboutFour,
+  .aboutFive{
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .about .underLay {
+    width: 160px;
+    height: 18px;
+  }
+  
+  .aboutTwo .underLay {
+    width: 335px;
+    height: 18px;
+  }
+  
+  .aboutThree .underLay {
+    width: 97px;
+    height: 18px;
+  }
+  
+  .aboutFour .underLay {
+    width: 150px;
+    height: 18px;
+  }
+  
+  .aboutFive .underLay {
+    width: 180px;
+    height: 18px;
+  }
+  
+  .about .underLay h2,
+  .aboutTwo .underLay h2,
+  .aboutThree .underLay h2,
+  .aboutFour .underLay h2,
+  .aboutFive .underLay h2 {
+    font-size: 23px;
+    top: -15px;
+    left: -8px;
+  }
+
+
+body[dir='rtl'] .about .underLay h2,
+body[dir='rtl'] .aboutTwo .underLay h2,
+body[dir='rtl'] .aboutThree .underLay h2,
+body[dir='rtl'] .aboutFour .underLay h2,
+body[dir='rtl'] .aboutFive .underLay h2 {
+  left: unset;
+  right: -8px;
+}
+
+  .aboutThree .item ul li {
+    font-size: 18px;
+
+  }
+
+  .aboutThree .item {
+    width: 98% !important;
+  }
+  
+
+  .contain{
+    width: 90% !important;
+    margin: 0 auto;
+  }
+
+  .staticImage{
+    width: 170px;
+    height: 170px;
+  }
+
+  .aboutTwo h5 {
+    font-size: 21px;
+  }
+  
+  .aboutTwo p {
+    font-size: 14px;
+  }
+
+  .iconImage{
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .aboutFive p {
+    font-size: 16px;
+  }
+  
+}

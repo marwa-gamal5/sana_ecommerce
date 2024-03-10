@@ -1,0 +1,101 @@
+.login {
+  background: rgba(195, 218, 188, 0.3);
+  backdrop-filter: blur(14.5px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 25px;
+  position: relative;
+}
+
+.beforeForm {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 80%;
+  text-transform: capitalize;
+}
+
+.form p,
+.form label {
+  color: #2E6020;
+}
+
+.form ::placeholder,
+.form input {
+  color: #8EA488 !important;
+}
+
+
+.checkbox:checked {
+  background-color: #5EB645;
+  color: #FFFFFF;
+}
+
+.sign_up {
+  color: #768572 !important;
+}
+
+.btn_login {
+  width: 100%;
+  background-color: #5EB645 !important;
+  border: 1px solid #5EB645 !important;
+  color: #ffffff !important;
+}
+
+.btn_login:hover {
+  background-color: transparent !important;
+  border: 1px solid #5EB645;
+  color: #5EB645 !important;
+}
+
+.form span {
+  color: #2E6020 !important;
+}
+
+.show_pass {
+  top: 35%;
+  right: 15px;
+  color: #2E6020 !important;
+}
+
+.close {
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(13, 47, 4, 0.3);
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+
+@media screen and (max-width: 1460px) {
+
+  .row {
+      width: 70%;
+     
+  }
+  
+}
+
+@media screen and (max-width: 1260px) {
+
+  .row {
+      width: 90%;
+     
+  }
+  
+}

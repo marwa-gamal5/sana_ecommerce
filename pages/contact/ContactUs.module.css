@@ -1,0 +1,175 @@
+
+.aboutFive{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: #FFFFFF;
+}
+
+.aboutFive .underLay {
+  width: 260px;
+  height: 30px;
+  background: #D8EDD1;
+}
+
+body[dir='rtl'] .aboutFive .underLay {
+  width: 230px;
+}
+
+.aboutFive .underLay h2 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 34px;
+  text-transform: uppercase;
+  color: #0D2F04;
+  z-index: 222;
+  top: -20px;
+  left: -13px;
+}
+
+
+body[dir='rtl'] .aboutFive .underLay h2 {
+  left: unset;
+  right: -13px;
+}
+
+
+.aboutFive .item {
+  background: rgba(234, 242, 231, 0.1);
+  box-shadow: 0px 4px 4px rgba(13, 47, 4, 0.2);
+  border-radius: 8px;
+  padding: 40px;
+}
+
+
+.itemMap iframe{
+  border-radius: 8px;
+}
+
+.aboutFive p {
+
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #0D2F04;
+
+}
+
+.aboutFive input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: 1px solid #5C8252;
+  padding: 10px 0px;
+  margin-top: 15px;
+  text-transform: capitalize;
+  color: #6E8867;
+}
+
+.aboutFive input::placeholder {
+  color: #6E8867 !important;
+}
+
+.aboutFive button {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  background: #D8EDD1;
+  border: 1px solid #D8EDD1;
+  border-radius: 8px;
+  color: #0D2F04;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+.about {
+  padding-top: 150px;
+  background-color: #FFFFFF;
+}
+
+.about .underLay {
+  width: 260px;
+  height: 30px;
+  background: #D8EDD1;
+}
+
+body[dir='rtl'] .about .underLay {
+  width: 115px;
+}
+
+.about .underLay h2 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #0D2F04;
+  z-index: 222;
+  top: -23px;
+  left: -13px;
+}
+
+
+body[dir='rtl'] .about .underLay h2 {
+  right: -13px;
+  left:unset;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .aboutFive{
+    padding-top: 10px ;
+    padding-bottom: 40px;
+  }
+  
+  
+  .aboutFive .underLay {
+    width: 180px;
+    height: 18px;
+  }
+  
+
+
+  .aboutFive .underLay h2 {
+    font-size: 23px;
+    top: -15px;
+    left: -8px;
+  }
+
+  body[dir='rtl'] .aboutFive .underLay h2 {
+    right: -8px;
+    left: unset;
+  }
+
+
+  .aboutFive p {
+    font-size: 16px;
+  }
+
+
+  .about {
+    padding-top: 117px;
+  }
+
+  .about .underLay {
+    width: 195px;
+    height: 23px;
+  }
+  
+  .about .underLay h2 {
+    font-size: 30px;
+    top: -17px;
+    left: -7px;
+  }
+
+  body[dir='rtl'] .about .underLay h2 {
+    right: -7px;
+    left: unset;
+  }
+  
+}
+
+

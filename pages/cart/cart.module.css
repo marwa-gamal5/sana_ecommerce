@@ -1,0 +1,134 @@
+
+  .cart{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .cart .cartImg,
+  .cartMob .cartImg{
+      background: #FFFFFF;
+      box-shadow: 0px 2px 4px rgba(22, 51, 13, 0.3);
+      border-radius: 8px;
+      width: 144px;
+      height: 140px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .cart .cartImg img,
+  .cartMob .cartImg img{
+      width: 80%;
+      height: 80%;
+  }
+
+  .table th,
+  .table td{
+      vertical-align: middle;
+      color: #2E6020;
+  }
+
+
+  .iconQuantity{
+    color: #3E6035;
+  }
+  
+  .inputQuantity{
+    color: #3E6035 !important;
+    background: #FFFFFF;
+    border: 2px solid #8EA488;
+    border-radius: 8px;
+    outline: none;
+    width: 50px;
+    text-align: center;
+    margin: 0px 10px;
+  }
+
+  .totalToCheck{
+    background: #FFFFFF;
+    border: 1px solid #5EB645;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0D2F04;
+    padding: 16px 40px;
+  }
+
+  body[dir='rtl'] .totalToCheck{
+    border-radius: 0px 8px 8px 0px;
+  }
+
+  .totalToCheck span{
+    font-weight: 400 !important;
+    font-size: 16px !important;
+  }
+
+  .btnToCheck{
+    padding: 16px 40px;
+    background: #5EB645;
+    border: 1px solid #5EB645;
+    border-radius: 0px 8px 8px 0px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+
+  body[dir='rtl']   .btnToCheck{
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  .about {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FFFFFF;
+  }
+
+  .about .underLay {
+    width: 110px;
+    height: 30px;
+    background: #D8EDD1;
+  }
+
+  body[dir='rtl']  .about .underLay {
+    width: 65px;
+  }
+  
+  .about .underLay h2 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #0D2F04;
+  z-index: 222;
+  top: -23px;
+  left: -13px;
+}
+
+body[dir='rtl'] .about .underLay h2 {
+  right: -13px;
+  left: unset;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .about .underLay {
+    width: 77px;
+    height: 23px;
+  }
+  
+  .about .underLay h2 {
+    font-size: 30px;
+    top: -17px;
+  }
+
+}

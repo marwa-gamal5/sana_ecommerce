@@ -1,0 +1,103 @@
+
+
+
+.fav {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+
+.about {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+}
+
+.about .underLay {
+  width: 295px;
+  height: 30px;
+  background: #D8EDD1;
+}
+
+body[dir='rtl'] .about .underLay {
+  width: 110px;
+}
+
+.about .underLay h2 {
+  position: absolute;
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #0D2F04;
+  z-index: 222;
+  top: -23px;
+  left: -13px;
+}
+
+body[dir='rtl'] .about .underLay h2 {
+  right: -13px;
+  left: unset;
+}
+
+
+/*  */
+
+.note h5 {
+  color: #4B4B4B;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.note {
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(46, 96, 32, 0.20);
+  padding: 20px;
+}
+
+.note p {
+  color: #4B4B4B;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.note .date {
+  color: #5EB645 !important;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.note .polet {
+  display: inline-block;
+  width: 14px ;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #5EB645;
+  margin-right: 9px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  .about .underLay {
+    width: 221px;
+    height: 22px;
+  }
+  
+  .about .underLay h2 {
+    font-size: 30px;
+    top: -17px;
+    left: -10px;
+  }
+  
+}

@@ -1,0 +1,169 @@
+/* modal global */
+.modalSpiceal .modal-content {
+  background-color: transparent !important;
+}
+
+/* work slider global */
+
+.workTestimonoals .item {
+  text-align: start !important;
+  margin-bottom: 30px;
+  transform: scale3d(0.8, 0.8, 1);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.workTestimonoals .item img {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.workTestimonoals .owl-item.active.center .item {
+  transform: scale3d(1.0, 1.0, 1);
+}
+
+
+
+.aboutThree .slick-next:before {
+  content: url('../assets/image/next.png') !important;
+}
+
+.aboutThree .slick-prev:before {
+  content: url('../assets/image/prev.png') !important;
+}
+
+.aboutFour .slick-next:before {
+  content: url('../assets/image/nextArrow.png') !important;
+}
+
+.aboutFour .slick-prev:before {
+  display: none !important;
+}
+
+.aboutFour .slick-dots {
+  display: none !important;
+}
+
+ .dropdown-toggle::after {
+  display: none !important;
+}
+
+.profileOption  .nav-link{
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #2E6020;
+  margin-top: 10px;
+  }
+
+  .profileOption  .nav-pills .nav-link.active{
+    padding: 10px 15px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    text-transform: capitalize;
+    color: #2E6020;
+    background-color: #FFFFFF;
+
+
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+    }
+
+ .accordion-item:first-of-type .accordion-button{
+      border-top-left-radius: unset !important;
+       border-top-right-radius: unset !important;
+    }
+
+
+
+  .accordion-button:not(.collapsed){
+    font-weight: 600;
+    font-size: 24px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #2E6020;
+    background-color: #FFFFFF !important;
+    box-shadow: unset !important;
+    border: none !important;
+    /* border-top : 4px solid #C3DABC !important; */
+    border-bottom : 4px solid #C3DABC !important;
+  }
+
+  .accordion-button{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #2E6020;
+    background-color: #FFFFFF !important;
+    box-shadow: unset !important;
+    border: none !important;
+    border-bottom : 4px solid #C3DABC !important;
+  }
+
+  .accordion-body {
+    border-bottom : 4px solid #C3DABC !important;
+  }
+
+  .accordion-item {
+    color: #2E6020 !important;
+    background-color: var(--bs-accordion-bg);
+    border: unset !important;
+}
+
+
+.mainSction{
+  min-height: 70vh;
+}
+
+
+input[type="radio"] {
+  background-color: #2E6020 !important;
+
+}
+
+
+/* ---------- scroll ----------- */
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2E6020;
+}
+
+/* ---------- end scroll ----------- */
+
+input[type='radio'] {
+  accent-color: #232323;
+}
+
+@media screen and (max-width: 600px) {
+
+.slick-next {
+    right: 0px !important;
+}
+  
+
+.approval .slick-next{
+  right: -25px !important;
+}
+  
+}
+
+
+[dir='rtl'] .slackTwo .slick-next {
+  transform: rotate(180deg) !important;
+  left: -60px !important;
+}

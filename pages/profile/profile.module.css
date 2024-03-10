@@ -1,0 +1,382 @@
+.iconMinus {
+    top: -15px;
+    right: -13px;
+}
+
+.profile{
+    padding-top: 100px;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.profileOption{
+    padding: 24px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+
+    
+}
+
+.profileOption h3{
+    padding: 10px 15px;
+    background: #D8EDD1;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #0D2F04;
+    display: inline-block !important;
+}
+
+.editProfile{ 
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+    display: flex;
+    gap: 10px;
+}
+
+.editProfile .nameEmail{
+    display: flex;
+    align-items: center;
+}
+
+.editProfile2{ 
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.editProfile2>div{ 
+    padding: 10px 15px;
+    width: 75%;
+}
+
+.editProfile2 h3{ 
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2E6020;
+}
+
+.editProfile2 label{ 
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #2E6020;
+}
+
+
+.editProfile2 input,
+.editProfile2 select{ 
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 1px solid #6F8469;
+    border-radius: 8px;
+    text-transform: capitalize;
+    color: #8EA488;
+}
+
+.editProfile2 .btnEdit{
+    padding: 10px 40px;
+    background: #5EB645;
+    border: 1px solid #5EB645;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.editImage{
+    position: absolute;
+    bottom: 5px;
+    right: 3px;
+}
+
+.approval{
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+}
+
+.approval h3{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2E6020;
+}
+
+.approval .item {
+    width: 90% !important;
+    margin: 20px;
+}
+  
+.noDecoment{
+
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2E6020;
+}
+
+.inputFileAlt{
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #2E6020;
+    align-items: flex-start;
+    padding: 12px 32px;
+    background: #D8EDD1;
+    border-radius: 8px;
+    border: 1px solid #D8EDD1;
+
+}
+
+.inputFileInp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #8EA488;
+    padding: 12px 32px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-left: none;
+    border-radius: 0px 8px 8px 0px;
+    outline: none;
+    width: 82%;
+}
+
+
+body[dir='rtl'] .inputFileInp{
+    /* border-radius: 0px 8px 8px 0px; */
+    border: 1px solid #C3DABC;
+    border-right: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+.btnEdit{
+    padding: 10px 40px;
+    background: #5EB645;
+    border: 1px solid #5EB645;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+/* model */
+.modelImage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(46, 96, 32, 0.3);
+    backdrop-filter: blur(9.5px);
+}
+
+.modelImage>div{
+    width: 50%;
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 16px;
+ }
+
+ .modelImage img{
+    border-radius: 16px !important;
+ }
+
+ .modelImageCaption {
+    margin: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2E6020;
+ }
+
+ .closeIconImage {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.order{
+    padding: 25px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+}
+
+.AproovalImg{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.60);
+}
+
+.shippingAdr{
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+}
+
+.financialInformation{
+    padding: 10px 15px;
+    background: #FFFFFF;
+    border: 1px solid #C3DABC;
+    border-radius: 16px;
+}
+
+.financialInformation h5{
+    color: #2E6020;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.financialInformation h6{
+    color: #2E6020;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+
+.financialInformation h6 span{
+    color: #2E6020;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.iconE{
+    color: #0D2F04;
+}
+
+.bankt p,
+.bankt span{
+    color: #2E6020;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.bankt{
+   display: flex;
+}
+
+
+.modelOrder{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(46, 96, 32, 0.3);
+    backdrop-filter: blur(9.5px);
+}
+
+.modelOrder>div{
+    width: 50%;
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    position: relative;
+ }
+
+ .modelOrder h5{
+    color: #2E6020;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+
+ .innerModelDiv{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #BFCFBB;
+    margin-bottom: 15px;
+ }
+
+.modelOrder label{
+    color: #2E6020;;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.modelOrder input::placeholder,
+.modelOrder input{
+    color: #2E6020 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.btnSend{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #5EB645;
+    border: 1px solid #5EB645;
+    color: #FFFFFF;
+}
+
+
+.close {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+.fixed{
+    overflow-y: auto;
+    height: 565px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .bankt{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #8EA488;
+     }
+
+     .modelImage>div{
+        width: 90%;
+     }
+
+     .modelOrder>div{
+        width: 90%;
+     }
+     
+  
+  }

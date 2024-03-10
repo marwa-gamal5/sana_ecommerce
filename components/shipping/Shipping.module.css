@@ -1,0 +1,139 @@
+.main h2{
+    color: #2E6020;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ordrItem{
+    border-radius: 8px;
+    border: 1px solid #C3DABC;
+    background: #FDFFFC;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ordrItem h5,
+.ordrItem label{
+    color: #0D2F04;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.modelOrder label{
+    color: #2E6020;;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.modelOrder input::placeholder,
+.modelOrder input{
+    color: #2E6020 !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.icon{
+    color: #0D2F04 !important;
+}
+
+.btnSend{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #5EB645;
+    border: 1px solid #5EB645;
+    color: #FFFFFF;
+}
+
+
+
+.modalBody{
+    background-color: #FFFFFF;
+}
+
+
+
+/* model */
+.modelOrder{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(46, 96, 32, 0.3);
+    backdrop-filter: blur(9.5px);
+}
+
+.modelOrder>div{
+    width: 50%;
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    position: relative;
+ }
+
+ .modelOrder h5{
+    color: #2E6020;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+
+ .innerModelDiv{
+    padding-bottom: 15px;
+    border-bottom: 2px solid #BFCFBB;
+    margin-bottom: 15px;
+ }
+
+ .modelOrder p{
+    color: #2E6020;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+
+ .itemImg img{
+    box-shadow: 0px 2px 4px rgba(22, 51, 13, 0.3);
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+ }
+
+ .close {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: -15px;
+    left: -20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .ordrItem{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .modelOrder>div{
+        width: 90%;
+     }
+    
+  }

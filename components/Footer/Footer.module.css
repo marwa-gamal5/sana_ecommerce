@@ -1,0 +1,24 @@
+.footer {
+  background: #EAF2E7;
+}     
+
+.footer ul li {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #0D2F04;
+}
+
+.footer ul li:first-child {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #0B2802;
+}
+
+.footerIcon {
+  color: #0B2802;
+  margin-right: 10px;
+}

@@ -1,0 +1,70 @@
+.nav {
+  margin-left: auto;
+}
+
+body[dir='rtl'] .nav {
+  margin-right: auto;
+}
+
+.navLinkOffcanvas {
+  color: #0B2802 !important;
+  padding: 20px 0px !important;
+  border-bottom: 1px solid #5d5d5d;
+}
+
+.navLink a {
+  border: none !important;
+  outline: none !important;
+}
+
+.myNav {
+  background-color: transparent !important;
+  z-index: 222;
+}
+
+.cart {
+  top: -3px;
+  right: -3px;
+  background-color: #5EB645;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+
+.heart{
+  top: -3px;
+  right: -3px;
+  background-color: #5EB645;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.langIcon {
+  color: #0B2802 !important;
+  background-color: #0B2802 !important;
+}
+
+.navLinkSign {
+  padding: 10px 32px !important;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: #5EB645;
+  border-radius: 8px;
+  color: #FFFFFF !important;
+}
+
+
+.profileMenu{
+  left: unset !important;
+  right: 0px !important;
+}
+
+
+body[dir='rtl'] .profileMenu{
+  right: unset !important;
+  left: 0px !important;
+}
