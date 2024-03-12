@@ -2,7 +2,7 @@ import * as React from 'react';
 import Link from 'next/link';
 import style from './FixedNavbar.module.css';
 
-import imgNavbar from "../../public/assets/image/logo.webp";
+import imgNavbar from "../../public/assets/image/logo sana.png";
 
 import { useState, useEffect, useRef } from 'react';
 
@@ -341,33 +341,33 @@ function FixedNavbar() {
             <Nav className={`${style.nav}`}>
 
               <Nav.Item>
-                <Link className={` nav-link px-3 fw-bolder text-uppercase`} style={{ color: "#0B2802" }} ref={linkRef} href="/" >
+                <Link className={` ${style.colorlink} nav-link px-3 fw-bolder text-uppercase`}  ref={linkRef} href="/" >
                   {listRef.current.VAR000001_home_AITSP0000000000}
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link className={` nav-link px-3 fw-bolder text-uppercase`} style={{ color: "#0B2802" }} ref={linkRef1} href="/about" >
+                <Link className={`${style.colorlink}  nav-link px-3 fw-bolder text-uppercase`}  ref={linkRef1} href="/about" >
                 {listRef.current.VAR000002_about_AITSP000000000}
                 </Link>
               </Nav.Item>
 
               <Nav.Item>
-                <Link className={` nav-link px-3 fw-bolder text-uppercase`} style={{ color: "#0B2802" }} ref={linkRef2} href="/product" >
+                <Link className={` ${style.colorlink}  nav-link px-3 fw-bolder text-uppercase`} style={{ color: "#0B2802" }} ref={linkRef2} href="/product" >
                 {listRef.current.VAR000003_product_AITSP0000000}
                 </Link>
               </Nav.Item>
 
 
               <Nav.Item>
-                <Link className={` nav-link px-3 fw-bolder text-uppercase`} style={{ color: "#0B2802" }} ref={linkRef3} href="/contact" >
+                <Link className={`${style.colorlink}  nav-link px-3 fw-bolder text-uppercase`} style={{ color: "#0B2802" }} ref={linkRef3} href="/contact" >
                 {listRef.current.VAR000004_contact_us_AITSP0000}
                 </Link>
               </Nav.Item>
 
 
               <Nav.Item>
-                <FontAwesomeIcon className={`fs-4 p-2`} icon={faSearch} style={{ color: "#0B2802" }} ref={linkRef7} type='button'
+                <FontAwesomeIcon className={`  ${style.colorlink}  fs-4 p-2`} icon={faSearch}  ref={linkRef7} type='button'
                   onClick={() => dispatch(getShowSearch(true))} />
               </Nav.Item>
 
@@ -377,7 +377,7 @@ function FixedNavbar() {
               <Dropdown>
 
                 <Dropdown.Toggle variant="transparent" id="dropdown-basic">
-                  <FontAwesomeIcon icon="globe-americas" className={`fs-4`} style={{ color: "#0B2802" }} ref={linkRef4} />
+                  <FontAwesomeIcon icon="globe-americas" className={` ${style.colorlink}  fs-4 `} style={{ color: "#0B2802" }} ref={linkRef4} />
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
@@ -410,7 +410,7 @@ function FixedNavbar() {
                 <Link className={`nav-link `} href="/cart" >
 
                   <div className='position-relative'>
-                    <FontAwesomeIcon className={`fs-4`} icon={faShoppingCart} style={{ color: "#0B2802" }} ref={linkRef6} />
+                    <FontAwesomeIcon className={` ${style.colorlink}  fs-4`} icon={faShoppingCart} style={{ color: "#0B2802" }} ref={linkRef6} />
                     {(cartCount.current > 0) ? (
                       <span className={`${style.cart}`}></span>
                     ) : (
@@ -425,7 +425,7 @@ function FixedNavbar() {
               <Link className={`nav-link `} href="/favorite" >
 
                 <div className='position-relative'>
-                  <FontAwesomeIcon className={`fs-4 `} icon="heart" style={{ color: "#0B2802" }}  ref={linkRef9}  /> 
+                  <FontAwesomeIcon className={` ${style.colorlink}  fs-4 `} icon="heart"   ref={linkRef9}  />
                   {(favCount.current > 0) ? (
                     <span className={`${style.heart}`}></span>
                   ) : (
@@ -440,7 +440,7 @@ function FixedNavbar() {
 
               <Dropdown className={"d-flex drop-user  align-items-center  " + navitems.signout}>
                 <Dropdown.Toggle name='lang' variant="transparent" id="dropdown-basic" className={`text-white d-flex align-items-center dropnav testPad  ${navitems.signout}`}>
-                  <FontAwesomeIcon icon="user" className={` fs-4 ` + navitems.signout} style={{ color: "#0B2802" }} ref={linkRef5} />
+                  <FontAwesomeIcon icon="user" className={`  fs-4 ` + navitems.signout} style={{ color: "#0B2802" }} ref={linkRef5} />
                 </Dropdown.Toggle>
                 <Dropdown.Menu className={`${style.profileMenu} my-2`}>
                   <Dropdown.Item href="/profile" as={Link}>{listRef.current.VAR000091_profile_AITSP0000000}</Dropdown.Item>
@@ -476,7 +476,7 @@ function FixedNavbar() {
           </Link>
 
           <Navbar.Toggle onClick={handleShow} >
-            <FontAwesomeIcon className='fs-4' style={{ color: "#0B2802" }} ref={linkRef8} icon={faBars} />
+            <FontAwesomeIcon className='fs-4'  ref={linkRef8} icon={faBars} />
           </Navbar.Toggle>
 
 
@@ -514,7 +514,7 @@ function FixedNavbar() {
                 </Nav.Item>
 
                 <Nav.Item>
-                <FontAwesomeIcon className={`fs-4 p-2`} icon={faSearch} style={{ color: "#0B2802" }} ref={linkRef7} type='button'
+                <FontAwesomeIcon className={` ${style.colorlink}  fs-4 p-2`} icon={faSearch}  ref={linkRef7} type='button'
                   onClick={() => dispatch(getShowSearch(true))} />
               </Nav.Item>
 
@@ -524,7 +524,7 @@ function FixedNavbar() {
               <Dropdown>
 
                 <Dropdown.Toggle variant="transparent" id="dropdown-basic">
-                  <FontAwesomeIcon icon="globe-americas" className={`fs-4`} style={{ color: "#0B2802" }} ref={linkRef4} />
+                  <FontAwesomeIcon icon="globe-americas" className={` ${style.colorlink}  fs-4`}  ref={linkRef4} />
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
@@ -554,10 +554,10 @@ function FixedNavbar() {
               </div>
 
               <Nav.Item className={""}>
-                <Link className={`nav-link mx-2`} href="/cart" >
+                <Link className={`   nav-link mx-2`} href="/cart" >
 
                   <div className='position-relative d-inline-block'>
-                    <FontAwesomeIcon className={`fs-4`} icon={faShoppingCart} style={{ color: "#0B2802" }} ref={linkRef6} />
+                    <FontAwesomeIcon className={` ${style.colorlink}  fs-4`} icon={faShoppingCart} style={{ color: "#0B2802" }} ref={linkRef6} />
                     {(cartCount.current > 0) ? (
                       <span className={`${style.cart}`}></span>
                     ) : (
@@ -572,7 +572,7 @@ function FixedNavbar() {
               <Link className={`nav-link mx-2`} href="/favorite" >
 
                 <div className='position-relative  d-inline-block'>
-                  <FontAwesomeIcon className={`fs-4 `} icon="heart" style={{ color: "#0B2802" }}  ref={linkRef9}  /> 
+                  <FontAwesomeIcon className={` ${style.colorlink}  fs-4 `} icon="heart" style={{ color: "#0B2802" }}  ref={linkRef9}  />
                   {(favCount.current > 0) ? (
                     <span className={`${style.heart}`}></span>
                   ) : (
@@ -587,7 +587,7 @@ function FixedNavbar() {
 
               <Dropdown className={`drop-user ` + navitems.signout}>
                   <Dropdown.Toggle name='lang' variant="transparent" id="dropdown-basic" className={`text-white d-flex align-items-center dropnav testPad  ${navitems.signout}`}>
-                    <FontAwesomeIcon icon="user" style={{ color: "#0B2802" }} className={`${style.icon} fs-4 ` + navitems.signout} />
+                    <FontAwesomeIcon icon="user" className={`${style.icon} fs-4 ` + navitems.signout} />
                   </Dropdown.Toggle>
                   <Dropdown.Menu className='my-2 '>
                     <Dropdown.Item href="/profile" as={Link}>{listRef.current.VAR000091_profile_AITSP0000000}</Dropdown.Item>

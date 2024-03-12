@@ -1,5 +1,5 @@
 .footer {
-  background: #EAF2E7;
+  background: #f9d0cb;
 }     
 
 .footer ul li {
@@ -7,7 +7,7 @@
   font-weight: 600;
   font-size: 14px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #230903;
 }
 
 .footer ul li:first-child {
@@ -15,10 +15,10 @@
   font-weight: 900;
   font-size: 18px;
   text-transform: capitalize;
-  color: #0B2802;
+  color: #230903;
 }
 
 .footerIcon {
-  color: #0B2802;
+  color: #230903;
   margin-right: 10px;
 }

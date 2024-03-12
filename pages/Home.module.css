@@ -1,3 +1,4 @@
+
 .videoContainer {
   position: relative;
   width: 100%;
@@ -9,6 +10,7 @@
   top: 50%;
   left: 15%;
   transform: translateY(-50%);
+
 }
 
 
@@ -21,7 +23,7 @@ body[dir='rtl'] .caption {
   font-size: 64px !important;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  color: #FFFFFF;
+    color: #e8623a !important;
 }
 
 body[dir='rtl'] .caption h2 {
@@ -36,11 +38,11 @@ body[dir='rtl'] .caption h2 {
 
 .contactBtn {
   padding: 16px 32px;
-  background: #5EB645;
+  background: #AE4829;
   border-radius: 8px;
   color: #FFFFFF;
   font-weight: 600;
-  border: 1px solid #5EB645;
+  border: 1px solid #AE4829;
 
 }
 
@@ -60,7 +62,7 @@ body[dir='rtl'] .caption h2 {
 .about h2,
 .about p {
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #AE4829;
   font-weight: 600;
 }
 
@@ -135,14 +137,14 @@ body[dir='rtl'] .caption h2 {
 .product .underLay {
   width: 250px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb;
 }
 
 
 .productTwo .underLay {
   width: 330px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb;
 }
 
 body[dir='rtl'] .productTwo .underLay {
@@ -155,7 +157,7 @@ body[dir='rtl'] .productTwo .underLay {
   font-weight: 900;
   font-size: 40px;
   text-transform: uppercase;
-  color: #0D2F04;
+  color: #46180a;
   z-index: 222;
   top: -23px;
   left: -13px;
@@ -166,7 +168,7 @@ body[dir='rtl'] .productTwo .underLay {
   font-weight: 800;
   font-size: 24px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #46180a;
 }
 
 

@@ -7,7 +7,7 @@ body[dir='rtl'] .nav {
 }
 
 .navLinkOffcanvas {
-  color: #0B2802 !important;
+  color: #AE4829 !important;
   padding: 20px 0px !important;
   border-bottom: 1px solid #5d5d5d;
 }
@@ -18,14 +18,15 @@ body[dir='rtl'] .nav {
 }
 
 .myNav {
-  background-color: transparent !important;
+  /*background-color: transparent !important;*/
   z-index: 222;
+  background-color: rgba(249, 208, 203, 0.2);
 }
 
 .cart {
   top: -3px;
   right: -3px;
-  background-color: #5EB645;
+  background-color: #AE4829;
   position: absolute;
   width: 9px;
   height: 9px;
@@ -36,7 +37,7 @@ body[dir='rtl'] .nav {
 .heart{
   top: -3px;
   right: -3px;
-  background-color: #5EB645;
+  background-color: #AE4829;
   position: absolute;
   width: 9px;
   height: 9px;
@@ -52,7 +53,7 @@ body[dir='rtl'] .nav {
   padding: 10px 32px !important;
   margin-right: 10px;
   margin-left: 10px;
-  background: #5EB645;
+  background: #AE4829;
   border-radius: 8px;
   color: #FFFFFF !important;
 }
@@ -67,4 +68,8 @@ body[dir='rtl'] .nav {
 body[dir='rtl'] .profileMenu{
   right: unset !important;
   left: 0px !important;
+}
+
+.colorlink{
+  color:#AE4829!important ;
 }

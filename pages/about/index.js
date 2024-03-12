@@ -6,7 +6,7 @@ import axiosInstance from '../../axiosConfig/instance';
 
 import styles from './About.module.css';
 
-import Bg from '../../public/assets/vedio/bg-home.mp4';
+import Bg from '../../public/assets/vedio/backgroundabout.mp4';
 
 import Image from 'next/image'
 
@@ -163,20 +163,20 @@ function About() {
       <section  >
         {/* header */}
         <div className={styles.videoContainer}>
-
+          <video autoPlay muted loop className={`${styles.video} w-100`}>
+            <source src={Bg} type="video/mp4"/>
+          </video>
           <div className='container'>
-            <video autoPlay muted loop className={styles.video}>
-              <source src={Bg} type="video/mp4" />
-            </video>
+
 
             <div className={styles.caption}>
-              <h2> {listRef.current.VAR000009_the_first_developed_}<br />
-              {listRef.current.VAR000010_for_the_manufacture_}
+              <h2> {listRef.current.VAR000009_the_first_developed_}<br/>
+                {listRef.current.VAR000010_for_the_manufacture_}
               </h2>
               <p>
-              {listRef.current.VAR000023_al_baraka_factory_fo}
-              {listRef.current.VAR000024_experts_in_the_manuf}
-              
+                {listRef.current.VAR000023_al_baraka_factory_fo}
+                {listRef.current.VAR000024_experts_in_the_manuf}
+
               </p>
             </div>
 
