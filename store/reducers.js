@@ -1,12 +1,24 @@
 /* eslint-disable default-param-last */
 import { combineReducers } from 'redux';
 import * as types from './types';
+import {USER_TYPE} from "./types";
 // import Cookies from 'js-cookie'; 
 
 // ......................................... Language .............................................//
 const languageReducer = (state = "en", { type, payload }) => {
   switch (type) {
     case types.SET_LANGUAGE:
+      return payload;
+    default:
+      return state;
+  }
+};
+
+// ......................................... user Type .............................................//
+
+const userType = (state = "", { type, payload }) => {
+  switch (type) {
+    case types.USER_TYPE:
       return payload;
     default:
       return state;
@@ -152,7 +164,8 @@ const reducers = {
   showForget: showForgetReducer,
   showSearch:showSearchReducer,
   currencyRate:currencyRateReducer,
-  navbarColor:navbarColorReducer
+  navbarColor:navbarColorReducer,
+  userType:userType,
 };
 
 export default combineReducers(reducers);

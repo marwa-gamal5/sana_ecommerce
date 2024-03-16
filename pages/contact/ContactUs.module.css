@@ -9,7 +9,7 @@
 .aboutFive .underLay {
   width: 260px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb;
 }
 
 body[dir='rtl'] .aboutFive .underLay {
@@ -21,7 +21,7 @@ body[dir='rtl'] .aboutFive .underLay {
   font-weight: 800;
   font-size: 34px;
   text-transform: uppercase;
-  color: #0D2F04;
+  color:#230903 ;
   z-index: 222;
   top: -20px;
   left: -13px;
@@ -51,7 +51,7 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   font-weight: 500;
   font-size: 24px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #230903;
 
 }
 
@@ -60,15 +60,15 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   border: none;
   outline: none;
   width: 100%;
-  border-bottom: 1px solid #5C8252;
+  border-bottom: 1px solid #46180a;
   padding: 10px 0px;
   margin-top: 15px;
   text-transform: capitalize;
-  color: #6E8867;
+  color: #46180a;
 }
 
 .aboutFive input::placeholder {
-  color: #6E8867 !important;
+  color: #46180a !important;
 }
 
 .aboutFive button {
@@ -76,10 +76,10 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   justify-content: center;
   align-items: center;
   padding: 10px 32px;
-  background: #D8EDD1;
-  border: 1px solid #D8EDD1;
+  background: #f9d0cb;
+  border: 1px solid #f9d0cb;
   border-radius: 8px;
-  color: #0D2F04;
+  color: #230903;
   font-weight: 700;
   font-size: 20px;
 }
@@ -93,7 +93,7 @@ body[dir='rtl'] .aboutFive .underLay h2 {
 .about .underLay {
   width: 260px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb;
 }
 
 body[dir='rtl'] .about .underLay {
@@ -105,7 +105,7 @@ body[dir='rtl'] .about .underLay {
   font-weight: 900;
   font-size: 40px;
   text-transform: uppercase;
-  color: #0D2F04;
+  color: #230903;
   z-index: 222;
   top: -23px;
   left: -13px;

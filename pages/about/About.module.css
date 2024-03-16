@@ -18,7 +18,7 @@ height: 400px;
   font-weight: 500;
   font-size: 24px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #782f19;
 }
 
 .caption h2 {
@@ -26,7 +26,7 @@ height: 400px;
   font-size: 40px;
   line-height: 55px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #782f19;
 }
 
 
@@ -47,14 +47,14 @@ height: 400px;
   position: relative;
   padding-top: 150px;
   padding-bottom: 150px;
-  background: #BAD6B2;
+  background: #f9d0cb;
 }
 
 
 .about .underLay {
   width: 280px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb ;
 }
 
 body[dir='rtl'] .about .underLay {
@@ -75,7 +75,7 @@ body[dir='rtl'] .aboutTwo .underLay {
 .aboutThree .underLay {
   width: 175px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb;
 }
 
 body[dir='rtl'] .aboutThree .underLay {
@@ -96,7 +96,7 @@ body[dir='rtl'] .aboutFour .underLay {
 .aboutFive .underLay {
   width: 312px;
   height: 30px;
-  background: #D8EDD1;
+  background: #f9d0cb;
 }
 
 
@@ -113,7 +113,7 @@ body[dir='rtl'] .aboutFive .underLay {
   font-weight: 900;
   font-size: 40px;
   text-transform: uppercase;
-  color: #0D2F04;
+  color: #46180a;
   z-index: 222;
   top: -23px;
   left: -13px;
@@ -133,7 +133,7 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   font-weight: 800;
   font-size: 24px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #46180a;
 }
 
 
@@ -149,20 +149,21 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   font-weight: 600;
   font-size: 32px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #46180a;
 }
 
 .aboutTwo p {
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #46180a;
 }
 
 .aboutThree .item {
   width: 90% !important;
   padding: 68px 68px 88px;
-  background: rgba(239, 249, 236, 0.3);
+  background: rgba(244, 155, 139, 0.1);
+
   box-shadow: 0px 4px 4px rgba(13, 47, 4, 0.2);
   border-radius: 8px;
 }
@@ -171,7 +172,7 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   font-weight: 600;
   font-size: 28px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #46180a;
 }
 
 .aboutFive .item {
@@ -185,7 +186,7 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   font-weight: 500;
   font-size: 24px;
   text-transform: capitalize;
-  color: #0D2F04;
+  color: #AE4829;
 }
 
 .aboutFive input {
@@ -193,15 +194,15 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   border: none;
   outline: none;
   width: 100%;
-  border-bottom: 1px solid #5C8252;
+  border-bottom: 1px solid #46180a;
   padding: 10px 0px;
   margin-top: 15px;
   text-transform: capitalize;
-  color: #6E8867;
+  color: #46180a;
 }
 
 .aboutFive input::placeholder {
-  color: #6E8867 !important;
+  color: #782f19 !important;
 }
 
 .aboutFive button {
@@ -209,10 +210,10 @@ body[dir='rtl'] .aboutFive .underLay h2 {
   justify-content: center;
   align-items: center;
   padding: 10px 32px;
-  background: #D8EDD1;
-  border: 1px solid #D8EDD1;
+  background: #f9d0cb;
+  border: 1px solid #f9d0cb;
   border-radius: 8px;
-  color: #0D2F04;
+  color: #782f19;
   font-weight: 700;
   font-size: 20px;
 }

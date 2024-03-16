@@ -262,7 +262,7 @@ function FixedNavbar() {
     if (navbarColor.current) {
       linkRef.current.style.color = navbarColor.current;
       linkRef1.current.style.color = navbarColor.current;
-      linkRef2.current.style.color = navbarColor.current;
+      linkRef2.current && (linkRef2.current.style.color = navbarColor.current);
       linkRef3.current.style.color = navbarColor.current;
       linkRef4.current.style.color = navbarColor.current;
       linkRef5.current.style.color = navbarColor.current;
@@ -270,7 +270,6 @@ function FixedNavbar() {
       linkRef7.current.style.color = navbarColor.current;
       linkRef8.current.style.color = navbarColor.current;
       linkRef9.current.style.color = navbarColor.current;
-
     }
 
     // end color nav ..........................................
@@ -403,7 +402,7 @@ function FixedNavbar() {
 
 
               <div className={ navitems.signout}>
-                    <Notifications color={navbarColor.current} />
+                <Notifications color="#AE4829" />
               </div>
 
               <Nav.Item className={""}>
@@ -440,7 +439,7 @@ function FixedNavbar() {
 
               <Dropdown className={"d-flex drop-user  align-items-center  " + navitems.signout}>
                 <Dropdown.Toggle name='lang' variant="transparent" id="dropdown-basic" className={`text-white d-flex align-items-center dropnav testPad  ${navitems.signout}`}>
-                  <FontAwesomeIcon icon="user" className={`  fs-4 ` + navitems.signout} style={{ color: "#0B2802" }} ref={linkRef5} />
+                  <FontAwesomeIcon icon="user" className={`  ${style.colorlink} fs-4 ` + navitems.signout}  ref={linkRef5} />
                 </Dropdown.Toggle>
                 <Dropdown.Menu className={`${style.profileMenu} my-2`}>
                   <Dropdown.Item href="/profile" as={Link}>{listRef.current.VAR000091_profile_AITSP0000000}</Dropdown.Item>
@@ -476,7 +475,7 @@ function FixedNavbar() {
           </Link>
 
           <Navbar.Toggle onClick={handleShow} >
-            <FontAwesomeIcon className='fs-4'  ref={linkRef8} icon={faBars} />
+            <FontAwesomeIcon className={`${style.colorlink} fs-4`} ref={linkRef8} icon={faBars} />
           </Navbar.Toggle>
 
 

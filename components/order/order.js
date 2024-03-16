@@ -135,7 +135,7 @@ function Order() {
       <section className={`${style.main} `}>
         <div className=''>
           <h2>{listRef.current.VAR000072_your_orders_AITSP000}</h2>
-          {orders.map((order, index) => {
+          {orders && orders.map((order, index) => {
             return (
               <div key={index} className={`${style.ordrItem} my-3`}>
 

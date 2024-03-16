@@ -17,7 +17,8 @@ import { getCartCount, getNavbarColor } from '../../store/actions';
 import Link from 'next/link';
 import fav from '../../public/assets/image/fav.png';
 import Image from 'next/image';
-import goOne from '../../public/assets/image/goOne.png';
+// import goOne from '../../public/assets/image/goOne.png';
+import { FaCircleArrowRight } from "react-icons/fa6";
 import Accordion from 'react-bootstrap/Accordion';
 
 import zoom from '../../public/assets/image/zoom.png';
@@ -385,7 +386,10 @@ function Product() {
                           <div className='d-flex justify-content-between'>
                             <h5>{prod.name}</h5>
                             <Link href={`${prod.id}`} className='text-decoration-none mt-2'>
-                              <Image className={`${style.goOne}`} src={goOne} alt="image one" />
+
+                              <FaCircleArrowRight color="#AE4829" style={{ fontSize: '30px' }} />
+
+                              {/*<Image className={`${style.goOne}`} src={goOne} alt="image one" />*/}
                             </Link>
                           </div>
 

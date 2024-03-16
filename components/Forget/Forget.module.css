@@ -30,39 +30,39 @@
 
 .form p,
 .form label {
-  color: #2E6020;
+  color: #782f19;
 }
 
 .form ::placeholder,
 .form input {
-  color: #8EA488 !important;
+  color: #b7b0b0 !important;
 }
 
 
 .checkbox:checked {
-  background-color: #5EB645;
+  background-color: #AE4829;
   color: #FFFFFF;
 }
 
 .sign_up {
-  color: #768572 !important;
+  color: #b7b0b0 !important;
 }
 
 .btn_login {
   width: 100%;
-  background-color: #5EB645 !important;
-  border: 1px solid #5EB645 !important;
+  background-color: #AE4829 !important;
+  border: 1px solid #AE4829 !important;
   color: #ffffff !important;
 }
 
 .btn_login:hover {
   background-color: transparent !important;
-  border: 1px solid #5EB645;
-  color: #5EB645 !important;
+  border: 1px solid #AE4829;
+  color: #AE4829 !important;
 }
 
 .form span {
-  color: #2E6020 !important;
+  color: #782f19 !important;
 }
 
 

@@ -12,7 +12,7 @@
 .profileOption{
     padding: 24px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
 
     
@@ -20,19 +20,19 @@
 
 .profileOption h3{
     padding: 10px 15px;
-    background: #D8EDD1;
+    background: #f9d0cb;
     border-radius: 16px;
     font-weight: 700;
     font-size: 16px;
     text-transform: capitalize;
-    color: #0D2F04;
+    color: #46180a;
     display: inline-block !important;
 }
 
 .editProfile{ 
     padding: 10px 15px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
     display: flex;
     gap: 10px;
@@ -45,7 +45,7 @@
 
 .editProfile2{ 
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
     display: flex;
     justify-content: center;
@@ -61,14 +61,14 @@
     font-weight: 700;
     font-size: 20px;
     text-transform: capitalize;
-    color: #2E6020;
+    color: #782f19;
 }
 
 .editProfile2 label{ 
     font-weight: 500;
     font-size: 12px;
     text-transform: capitalize;
-    color: #2E6020;
+    color: #782f19;
 }
 
 
@@ -76,16 +76,16 @@
 .editProfile2 select{ 
     padding: 10px 15px;
     background: #FFFFFF;
-    border: 1px solid #6F8469;
+    border: 1px solid #b7b0b0;
     border-radius: 8px;
     text-transform: capitalize;
-    color: #8EA488;
+    color: #b7b0b0;
 }
 
 .editProfile2 .btnEdit{
     padding: 10px 40px;
-    background: #5EB645;
-    border: 1px solid #5EB645;
+    background: #AE4829;
+    border: 1px solid #AE4829;
     border-radius: 8px;
     font-weight: 800;
     font-size: 16px;
@@ -102,7 +102,7 @@
 .approval{
     padding: 10px 15px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
 }
 
@@ -111,7 +111,7 @@
     font-weight: 700;
     font-size: 20px;
     text-transform: capitalize;
-    color: #2E6020;
+    color:#782f19 ;
 }
 
 .approval .item {
@@ -124,19 +124,19 @@
     font-weight: 500;
     font-size: 20px;
     text-transform: capitalize;
-    color: #2E6020;
+    color: #782f19;
 }
 
 .inputFileAlt{
     font-weight: 800;
     font-size: 14px;
     text-transform: capitalize;
-    color: #2E6020;
+    color: #782f19;
     align-items: flex-start;
     padding: 12px 32px;
-    background: #D8EDD1;
+    background: #f9d0cb;
     border-radius: 8px;
-    border: 1px solid #D8EDD1;
+    border: 1px solid #f9d0cb;
 
 }
 
@@ -145,10 +145,10 @@
     font-weight: 400;
     font-size: 14px;
     text-transform: capitalize;
-    color: #8EA488;
+    color: #b7b0b0;
     padding: 12px 32px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-left: none;
     border-radius: 0px 8px 8px 0px;
     outline: none;
@@ -158,7 +158,7 @@
 
 body[dir='rtl'] .inputFileInp{
     /* border-radius: 0px 8px 8px 0px; */
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-right: none;
     border-radius: 8px 0px 0px 8px;
 }
@@ -166,8 +166,8 @@ body[dir='rtl'] .inputFileInp{
 
 .btnEdit{
     padding: 10px 40px;
-    background: #5EB645;
-    border: 1px solid #5EB645;
+    background: #AE4829;
+    border: 1px solid #AE4829;
     border-radius: 8px;
     font-weight: 800;
     font-size: 16px;
@@ -181,7 +181,7 @@ body[dir='rtl'] .inputFileInp{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(46, 96, 32, 0.3);
+    background: #AE4829;
     backdrop-filter: blur(9.5px);
 }
 
@@ -201,7 +201,7 @@ body[dir='rtl'] .inputFileInp{
     font-weight: 700;
     font-size: 20px;
     text-transform: capitalize;
-    color: #2E6020;
+    color: #782f19;
  }
 
  .closeIconImage {
@@ -213,7 +213,7 @@ body[dir='rtl'] .inputFileInp{
 .order{
     padding: 25px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
 }
 
@@ -229,19 +229,19 @@ body[dir='rtl'] .inputFileInp{
 .shippingAdr{
     padding: 10px 15px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
 }
 
 .financialInformation{
     padding: 10px 15px;
     background: #FFFFFF;
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
 }
 
 .financialInformation h5{
-    color: #2E6020;
+    color: #782f19;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -250,7 +250,7 @@ body[dir='rtl'] .inputFileInp{
 }
 
 .financialInformation h6{
-    color: #2E6020;
+    color: #782f19;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -261,7 +261,7 @@ body[dir='rtl'] .inputFileInp{
 
 
 .financialInformation h6 span{
-    color: #2E6020;
+    color: #782f19;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -270,12 +270,12 @@ body[dir='rtl'] .inputFileInp{
 }
 
 .iconE{
-    color: #0D2F04;
+    color: #782f19;
 }
 
 .bankt p,
 .bankt span{
-    color: #2E6020;
+    color: #782f19;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -294,7 +294,7 @@ body[dir='rtl'] .inputFileInp{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(46, 96, 32, 0.3);
+    background: #46180a;
     backdrop-filter: blur(9.5px);
 }
 
@@ -307,7 +307,7 @@ body[dir='rtl'] .inputFileInp{
  }
 
  .modelOrder h5{
-    color: #2E6020;
+    color: #782f19;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -317,12 +317,12 @@ body[dir='rtl'] .inputFileInp{
 
  .innerModelDiv{
     padding-bottom: 15px;
-    border-bottom: 2px solid #BFCFBB;
+    border-bottom: 2px solid #b7b0b0;
     margin-bottom: 15px;
  }
 
 .modelOrder label{
-    color: #2E6020;;
+    color: #782f19;;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -332,7 +332,7 @@ body[dir='rtl'] .inputFileInp{
 
 .modelOrder input::placeholder,
 .modelOrder input{
-    color: #2E6020 !important;
+    color: #782f19 !important;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -344,8 +344,8 @@ body[dir='rtl'] .inputFileInp{
 .btnSend{
     padding: 10px 20px;
     border-radius: 8px;
-    background: #5EB645;
-    border: 1px solid #5EB645;
+    background: #AE4829;
+    border: 1px solid #AE4829;
     color: #FFFFFF;
 }
 
@@ -367,7 +367,7 @@ body[dir='rtl'] .inputFileInp{
     .bankt{
         display: flex;
         flex-wrap: wrap;
-        border-bottom: 1px solid #8EA488;
+        border-bottom: 1px solid #b7b0b0;
      }
 
      .modelImage>div{

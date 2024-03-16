@@ -30,6 +30,18 @@ export const getLanguage = (langCode) => (dispatch, getState) => {
   dispatch(setLanguage(langCode));
 };
 
+// ......................................... user type .............................................//
+
+
+export const USER_TYPE = (payload) => {
+  return {
+    type: 'USER_TYPE',
+    payload,
+
+  }
+}
+
+
 // ......................................... isAuth .............................................//
 export const setIsAuth = (payload) => ({ type: types.SET_IS_AUTH, payload });
 

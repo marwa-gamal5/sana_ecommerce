@@ -11,3 +11,6 @@ export const SET_SHOW_FORGET = 'SET_SHOW_FORGET';
 export const SET_CURRENCY_RATE = 'SET_CURRENCY_RATE';
 export const SET_NAVBAR_COLOR = 'SET_NAVBAR_COLOR';
 export const SET_SHOW_SEARCH = 'SET_SHOW_SEARCH';
+
+
+export const USER_TYPE = 'USER_TYPE';

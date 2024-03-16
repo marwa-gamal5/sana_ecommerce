@@ -3,14 +3,14 @@
     font-weight: 700;
     font-size: 32px;
     text-transform: capitalize;
-    color: #0D2F04;
+    color: #46180a;
   }
   
   .allProduct h5{
     font-weight: 600;
     font-size: 20px;
     text-transform: capitalize;
-    color: #0D2F04;
+    color: #46180a;
   
   }
   
@@ -31,7 +31,7 @@
   .about .underLay {
     width: 200px;
     height: 30px;
-    background: #D8EDD1;
+    background: #f9d0cb;
   }
 
   body[dir='rtl']  .about .underLay {
@@ -43,7 +43,7 @@
     font-weight: 900;
     font-size: 40px;
     text-transform: uppercase;
-    color: #0D2F04;
+    color: #46180a;
     z-index: 222;
     top: -23px;
     left: -13px;

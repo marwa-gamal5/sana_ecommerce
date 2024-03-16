@@ -7,7 +7,8 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { getShowSearch } from '@/store/actions';
 import style from './Search.module.css';
-import goOne from '../../public/assets/image/goOne.png';
+import { FaCircleArrowRight } from "react-icons/fa6";
+// import goOne from '../../public/assets/image/goOne.png';
 import fav from '../../public/assets/image/fav.png';
 import {getNavbarColor } from '../../store/actions';
 
@@ -82,7 +83,9 @@ function Search() {
                                             <div className='d-flex justify-content-between'>
                                            
                                                 <Link href={`/product/${prod.id}`} className='text-decoration-none'>
-                                                    <Image src={goOne} alt="image one" />
+                                                    {/*<Image src={goOne} alt="image one" />*/}
+                                                    <FaCircleArrowRight color="#AE4829" style={{ fontSize: '30px' }} />
+
                                                 </Link>
                                             </div>
                                         </div>

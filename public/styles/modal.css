@@ -53,7 +53,7 @@
   font-weight: 700;
   font-size: 14px;
   text-transform: capitalize;
-  color: #2E6020;
+  color: #AE4829;
   margin-top: 10px;
   }
 
@@ -64,11 +64,11 @@
     font-size: 14px;
 
     text-transform: capitalize;
-    color: #2E6020;
+    color: #AE4829;
     background-color: #FFFFFF;
 
 
-    border: 1px solid #C3DABC;
+    border: 1px solid #f9d0cb;
     border-radius: 16px;
     }
 
@@ -84,12 +84,12 @@
     font-size: 24px;
     text-align: justify;
     text-transform: capitalize;
-    color: #2E6020;
+    color:#AE4829 ;
     background-color: #FFFFFF !important;
     box-shadow: unset !important;
     border: none !important;
     /* border-top : 4px solid #C3DABC !important; */
-    border-bottom : 4px solid #C3DABC !important;
+    border-bottom : 4px solid #f9d0cb !important;
   }
 
   .accordion-button{
@@ -97,19 +97,19 @@
     font-size: 24px;
     text-align: justify;
     text-transform: capitalize;
-    color: #2E6020;
+    color: #AE4829;
     background-color: #FFFFFF !important;
     box-shadow: unset !important;
     border: none !important;
-    border-bottom : 4px solid #C3DABC !important;
+    border-bottom : 4px solid #f9d0cb !important;
   }
 
   .accordion-body {
-    border-bottom : 4px solid #C3DABC !important;
+    border-bottom : 4px solid #f9d0cb !important;
   }
 
   .accordion-item {
-    color: #2E6020 !important;
+    color: #AE4829 !important;
     background-color: var(--bs-accordion-bg);
     border: unset !important;
 }
@@ -121,7 +121,7 @@
 
 
 input[type="radio"] {
-  background-color: #2E6020 !important;
+  background-color: #AE4829 !important;
 
 }
 
@@ -140,7 +140,7 @@ input[type="radio"] {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #2E6020;
+  background: #AE4829;
 }
 
 /* ---------- end scroll ----------- */

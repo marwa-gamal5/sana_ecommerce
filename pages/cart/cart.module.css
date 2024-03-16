@@ -25,18 +25,18 @@
   .table th,
   .table td{
       vertical-align: middle;
-      color: #2E6020;
+      color: #782f19;
   }
 
 
   .iconQuantity{
-    color: #3E6035;
+    color: #782f19;
   }
   
   .inputQuantity{
-    color: #3E6035 !important;
+    color: #782f19 !important;
     background: #FFFFFF;
-    border: 2px solid #8EA488;
+    border: 2px solid #f9d0cb;
     border-radius: 8px;
     outline: none;
     width: 50px;
@@ -46,12 +46,12 @@
 
   .totalToCheck{
     background: #FFFFFF;
-    border: 1px solid #5EB645;
+    border: 1px solid #e8623a;
     border-radius: 8px 0px 0px 8px;
     font-weight: 700;
     font-size: 20px;
     text-transform: capitalize;
-    color: #0D2F04;
+    color: #46180a;
     padding: 16px 40px;
   }
 
@@ -66,8 +66,8 @@
 
   .btnToCheck{
     padding: 16px 40px;
-    background: #5EB645;
-    border: 1px solid #5EB645;
+    background: #e8623a;
+    border: 1px solid #e8623a;
     border-radius: 0px 8px 8px 0px;
     font-weight: 800;
     font-size: 20px;
@@ -90,7 +90,7 @@
   .about .underLay {
     width: 110px;
     height: 30px;
-    background: #D8EDD1;
+    background: #f9d0cb;
   }
 
   body[dir='rtl']  .about .underLay {
@@ -102,7 +102,7 @@
   font-weight: 900;
   font-size: 40px;
   text-transform: uppercase;
-  color: #0D2F04;
+  color: #46180a;
   z-index: 222;
   top: -23px;
   left: -13px;

@@ -53,6 +53,7 @@ const Profile = () => {
 
     const dispatch = useDispatch();
 
+
     const [caption, setCaption] = useState("");
     const [image, setImage] = useState("");
 
@@ -194,9 +195,13 @@ const Profile = () => {
 
 
     const viewAllApprovalImgs = async (customer_id) => {
+
         await axiosInstance.post('user/view_all_approval_imgs', {
             token: token,
             customer_id: customer_id,
+            id:customer_id,
+            user_type:'customer',
+            url:window.location.pathname.split('/')[1]
         }, {
             headers: {
                 "Authorization": `Token ${token}`,
@@ -204,6 +209,7 @@ const Profile = () => {
             }
         }).then(res => {
             setApprovalImgs(res.data.success);
+
         })
             .catch((err) => {
                 console.log("err", err)
@@ -359,12 +365,16 @@ const Profile = () => {
         }));
     }
 
+
+
+
     useEffect(() => {
         dispatch(getNavbarColor("#0B2802"));
         handleInfo();
         getCountry();
-    }, []);
 
+
+    }, []);
 
 
     // bank

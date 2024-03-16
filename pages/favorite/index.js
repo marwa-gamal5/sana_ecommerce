@@ -7,7 +7,8 @@ import Image from 'next/image';
 
 import style from './Favorite.module.css';
 import favFill from '../../public/assets/image/favFill.png';
-import goOne from '../../public/assets/image/goOne.png';
+// import goOne from '../../public/assets/image/goOne.png';
+import { FaCircleArrowRight } from "react-icons/fa6";
 import {getNavbarColor,getFavCount } from '../../store/actions';
 import Swal from "sweetalert2";
 
@@ -133,7 +134,9 @@ function Favorite() {
                                           <h5>{prod.name}</h5>
                                           <div className='d-flex justify-content-between'>
                                               <Link href={`/product/${prod.id}`} className='text-decoration-none'>
-                                                  <Image className={`${style.goOne}`} src={goOne} alt="image one" />
+                                                  {/*<Image className={`${style.goOne}`} src={goOne} alt="image one" />*/}
+                                                  <FaCircleArrowRight color="#AE4829" style={{ fontSize: '30px' }} />
+
                                               </Link>
                                           </div>
                                       </div>

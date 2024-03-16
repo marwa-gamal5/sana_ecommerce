@@ -5,7 +5,10 @@ import axiosInstance from '../../axiosConfig/instance';
 import { useSelector, useDispatch } from 'react-redux';
 import { getFavCount, getNavbarColor } from '../../store/actions';
 import style from './product.module.css';
-import goOne from '../../public/assets/image/goOne.png';
+// import goOne from '../../public/assets/image/goOne.png';
+import { FaCircleArrowRight } from "react-icons/fa6";
+
+
 import fav from '../../public/assets/image/fav.png';
 import favFill from '../../public/assets/image/favFill.png';
 import Image from 'next/image';
@@ -238,7 +241,8 @@ function Product() {
                                 href={`product/${prod.id}`}
                                 className='text-decoration-none'
                               >
-                                <Image className={`${style.goOne}`} src={goOne} alt="image one" />
+                                {/*<Image className={`${style.goOne}`} src={goOne} alt="image one" />*/}
+                                <FaCircleArrowRight color="#AE4829" style={{ fontSize: '30px' }} />
                               </Link>
                             </div>
                           </div>

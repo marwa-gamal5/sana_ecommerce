@@ -58,7 +58,7 @@ function Login() {
             username: username.toLowerCase(),
             password: password
         }).then(res => {
-
+    console.log("login respons",res.data.user_type)
             if (res.data.error) {
                 if (res.data.error == "too_many_requests") {
                     showAlert(listRef.current[res.data.error], "error");
